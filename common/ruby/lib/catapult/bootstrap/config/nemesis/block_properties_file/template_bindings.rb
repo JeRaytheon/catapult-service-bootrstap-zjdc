@@ -15,8 +15,8 @@ module Catapult::Bootstrap
   class Config::Nemesis
     class BlockPropertiesFile
       module TemplateBindings
-        XEM_TOTAL_SUPPLY   = "1'000'000'000'000'000"
-	XEM_ACCOUNT_SUPPLY = "200'000'000'000'000"
+        XEM_TOTAL_SUPPLY   = "100'000'000'000'000"
+	XEM_ACCOUNT_SUPPLY = "20'000'000'000'000"
         XEM_NUM_OF_ACCOUNTS = 5 # this has to equal ratio XEM_TOTAL_SUPPLY/XEM_ACCOUNT_SUPPLY
 
         def self.template_bindings(nemesis_keys_info, harvest_vrf_directory)
